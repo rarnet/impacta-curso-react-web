@@ -1,0 +1,26 @@
+####################### FAZER COMMIT #########################
+1 - verifica as alterações
+command: git status
+
+2 - inclui as alterações 
+command: git add -A
+
+3 - salvar as alterações em seu repositório local
+command: git commit
+
+4 - subir alterações para seu repositório remoto
+command: git push origin <nome-da-branch-remota>
+
+
+####################### Fazer merge
+
+1 - faça commit
+
+2 - faça o checkout na branch master
+command: git checkout master
+
+3 - executando o merge
+command: git merge <nome-da-branch-que vc estava codando>
+
+4 - subir as alterações para sua branch principal (master)
+command: git push origin master
